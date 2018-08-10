@@ -1,5 +1,7 @@
 ---
-title: "practice"
+title: "Markdown Practice"
+author: "Josh Emerson"
+date: "10 August 2018"
 output: html_document
 ---
 
@@ -7,17 +9,46 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+### Course Topics
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+#### Part I: Data Science Best Practices
+1. Overview and Introduction
+1. Workflow and RStudio
+1. R Coding and Scripting Basics
+1. Working with GIS
+1. Version control using Git
+1. Data Science Best Practices
+1. Part I Wrap Up
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+#### Part II: tidyverse workflow
+1. Overview of the tidyverse workflow
+1. Data importing
+1. Tidy data
+1. Data manipulation with dplyr
+1. Data visulization with ggplot2
+1. Data modeling with Split-Apply-Combine
+1. Producing Reports With R Markdown
+1. Part II Wrap Up
 
-```{r cars}
-summary(cars)
+### Load Packages
+```{r eval = FALSE}
+library(tidyverse)
+library(lubridate)
+library(broom)
+require(readxl)
 ```
 
-## Including Plots
+### Loading Data
+
+```{r eval = FALSE} 
+input_file <- "data/Hawthorne Tilikum Steel daily bike counts 073118.xlsx"
+bridge_name <- "Hawthorne"}
+```
+
+
+
+
+### Including Plots
 
 You can also embed plots, for example:
 
