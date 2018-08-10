@@ -9,6 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+practice R markdown document, trying to outline this week's class
+
 ### Course Topics
 
 #### Part I: Data Science Best Practices
