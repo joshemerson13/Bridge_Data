@@ -9,8 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-practice R markdown document, trying to outline this week's class
+practice R markdown document, attempt to summarize class
 
 ### Course Topics
 
@@ -48,15 +47,21 @@ input_file <- "data/Hawthorne Tilikum Steel daily bike counts 073118.xlsx"
 bridge_name <- "Hawthorne"}
 ```
 
+### Tidy the Data
 
+### Join Bike Data and Weather Data
 
+### Plot Bridge crossings vs Weather
 
-### Including Plots
+### Seasonal trends via ggfortify 
+
+### linear regression
 
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
